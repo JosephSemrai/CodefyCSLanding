@@ -1,5 +1,11 @@
 # Codefy CS Landing Page
 
+## Project Structure
+* /Pages - Full pages/landing page consisting of components
+* /components - Reusable components that are not specific to a page
+* /img - Page images
+* /assets - Static files that are not images
+
 ## Installation Instructions
 
 1. Run ```yarn install```
@@ -19,5 +25,7 @@ or (not recommended)
 #### License Information
 
 Template from DroitThemes REGULAR LICENSE (24892607)
+
 Licensee: Joseph Semrai
+
 See LICENSE.txt
