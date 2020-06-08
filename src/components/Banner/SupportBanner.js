@@ -7,7 +7,7 @@ const SupportBanner =()=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h2 className="f_p f_size_40 l_height60 wow fadeInUp" data-wow-delay="0.3s">Intuitive, feature-rich, affordable <br/><span className="f_700">customer support</span> software</h2>
+                            <h2 className="f_p f_size_40 l_height60 wow fadeInUp" data-wow-delay="0.3s">Free, quality, accessible<br/><span className="f_700">Computer Science</span> courses</h2>
                             <p className="f_size_18 l_height30 wow fadeInUp" data-wow-delay="0.5s">Chap fantastic skive off chancer knees up starkers easy peasy up the<br/> kyver David, bleeding the BBC tomfoolery chimney.!</p>
                             <form className="mailchimp wow fadeInUp" data-wow-delay="0.6s" method="post">
                                 <div className="input-group subcribes">
