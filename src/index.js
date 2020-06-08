@@ -19,6 +19,9 @@ import "popper.js";
 
 const loader = document.querySelector("#preloader");
 
+// Hide loader from the start
+loader.classList.add("loader--hide");
+
 // if you want to show the loader when React loads data again
 const showLoader = () => {};
 
