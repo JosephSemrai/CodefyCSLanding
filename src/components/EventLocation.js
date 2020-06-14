@@ -16,10 +16,7 @@ const EventLocation = () => {
           <div className="contact_info_item">
             <h6>Contact Info</h6>
             <p>
-              <a href="mailto:saasland@gmail.com">saasland@gmail.com</a>
-            </p>
-            <p>
-              <a href="tel:3024437488">(+096) 302 443 7488</a>
+              <a href="mailto:saasland@gmail.com">help@codefycs.tech</a>
             </p>
           </div>
           <div className="f_social_icon_two">

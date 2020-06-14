@@ -9,37 +9,12 @@ const FooterData = {
     AboutWidget: [
         {
           id: 1,
-          title: "Download",
+          title: "Codefy Info",
           menuItems: [
               {
                 id: 1,
                 url: '#',
                 text: 'Company',
-              },
-              {
-                id: 2,
-                url: '#',
-                text: 'Android App',
-              },
-              {
-                id: 3,
-                url: '#',
-                text: 'ios App',
-              },
-              {
-                id: 4,
-                url: '#',
-                text: 'Desktop',
-              },
-              {
-                id: 5,
-                url: '#',
-                text: 'Projects',
-              },
-              {
-                  id: 6,
-                  url: '#',
-                  text: 'My tasks',
               },
           ],
       },
@@ -158,36 +133,36 @@ const FooterData = {
         icon: 'ti-pinterest',
       }
     ],
-    copywrite:"© SaasLand Inc.. 2019 All rights reserved.",
+    copywrite:"© Codefy 2020.",
     TestimonialText: [
       {
         id: 1,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
+        // image: "new/member_01.jpg",
+        description:  "My son is in the Scratch class and I just want to say how impressed I am with your program. The communications and the way the classes are run are so organized and clear. He has learned so much in just three classes and is always excited to show his work once the class is done. Thank you for all that you’re doing to encourage and inspire all of the kids who are in your classes!",
+        authorName: "Parent",
+        authorPost: "Scratch Course", 
       },
-      {
-        id: 2,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
-      },
-      {
-        id: 3,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
-      },
-      {
-        id: 4,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
-      }
+      // {
+      //   id: 2,
+      //   image: "new/member_01.jpg",
+      //   description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+      //   authorName: "Phillip Anthropy",
+      //   authorPost: "UI/UX designer", 
+      // },
+      // {
+      //   id: 3,
+      //   image: "new/member_01.jpg",
+      //   description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+      //   authorName: "Phillip Anthropy",
+      //   authorPost: "UI/UX designer", 
+      // },
+      // {
+      //   id: 4,
+      //   image: "new/member_01.jpg",
+      //   description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+      //   authorName: "Phillip Anthropy",
+      //   authorPost: "UI/UX designer", 
+      // }
     ],
     aboutLinks: [
       {

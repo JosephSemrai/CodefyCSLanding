@@ -11,6 +11,7 @@ import MarketingTestimonial from '../components/Testimonial/MarketingTestimonial
 import SupportSubscribe from '../components/SupportSubscribe';
 import FooterSecurity from "../components/Footer/FooterSecurity";
 import FooterData from '../components/Footer/FooterData';
+import Sservice from '../components/Service/Sservice/PrototypeService'
 
 const homesupport = () => {
     return(
@@ -19,9 +20,10 @@ const homesupport = () => {
             <SupportBanner/> 
             <SupportPartnerlogo BannerData={BannerData}/>
             <SupportItem/>
-            <Designtab/>
-            <SupportIntegration/>
-            <Price/>
+            <Sservice />
+
+            {/* <SupportIntegration/> */}
+            {/* <Price/> */}
             <MarketingTestimonial BannerData={BannerData}/>
             <SupportSubscribe/>
             <FooterSecurity FooterData={FooterData}/>

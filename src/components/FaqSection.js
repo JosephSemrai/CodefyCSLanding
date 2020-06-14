@@ -10,159 +10,87 @@ const FaqSection =()=>{
                             <h4 className="f_p t_color3 f_600 f_size_22 mb_40">Quick Navigation</h4>
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item">
-                                    <a className="nav-link active" id="purchas-tab" data-toggle="tab" href="#purchas" role="tab" aria-controls="purchas" aria-selected="true">Purchasing Online</a>
+                                    <a className="nav-link active" id="purchas-tab" data-toggle="tab" href="#volunteering" role="tab" aria-controls="purchas" aria-selected="true">Volunteering</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="returns-tab" data-toggle="tab" href="#returns" role="tab" aria-controls="returns" aria-selected="false">Returns</a>
+                                    <a className="nav-link" id="returns-tab" data-toggle="tab" href="#common" role="tab" aria-controls="returns" aria-selected="false">Common Questions</a>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <a className="nav-link" id="price-tab" data-toggle="tab" href="#price" role="tab" aria-controls="price" aria-selected="false">Pricing & Support</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" id="care-tab" data-toggle="tab" href="#care" role="tab" aria-controls="care" aria-selected="false">Care & Repair</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-8">
                         <div className="tab-content faq_content" id="myTabContent">
-                            <div className="tab-pane fade show active" id="purchas" role="tabpanel" aria-labelledby="purchas-tab">
-                                <h3 className="f_p f_size_22 f_500 t_color3 mb_20">How to purchase</h3>
+                            <div className="tab-pane fade show active" id="volunteering" role="tabpanel" aria-labelledby="purchas-tab">
+                                <h3 className="f_p f_size_22 f_500 t_color3 mb_20">Volunteering</h3>
                                 <div id="accordion">
                                     <div className="card">
                                         <div className="card-header" id="headingOne">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    How do I repair an item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: What are the minimum qualifications for volunteers?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: There are no minimum qualifications, but we kindly ask that you have the experience necessary for your selected role.                                            </div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-header" id="headingTwo">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Where can I find instructions on how to use my watch?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: How many hours am I required to spend as a volunteer?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: We only ask that you spend the time necessary for your selected role. For example, a class mentor is only expected to spend 3-to-5 hours per week, while a language director will need to spend much more!                                            </div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-header" id="headingThree">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: Do volunteer hours qualify for school-mandated volunteer requirements?
+<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: Yes, all volunteer hours spent with our organization can be verified and approved for your school!                                            </div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-header" id="headingfour">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: Will I be compensated for my time as a volunteer?
+<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapsefour" className="collapse" aria-labelledby="headingfour" data-parent="#accordion">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
+                                            A: Unfortunately, due to the fact that we provide our services free-of-charge, we cannot offer monetary compensation. However, you are welcome to use your time with us to fulfill your school-mandated volunteer requirements and/or reference us in a future academic resume! 
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="card">
-                                        <div className="card-header" id="headingfive">
-                                            <h5 className="mb-0">
-                                                <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapsefive" className="collapse" aria-labelledby="headingfive" data-parent="#accordion">
-                                            <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
-                                <h3 className="f_p f_size_22 f_500 t_color3 mb_20 mt_100">How to pay</h3>
-                                <div id="accordion2">
-                                    <div className="card">
-                                        <div className="card-header" id="headingsix">
-                                            <h5 className="mb-0">
-                                                <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                                                    How do I repair an item?<i className="ti-plus"></i><i className="ti-minus"></i>
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapsesix" className="collapse" aria-labelledby="headingsix" data-parent="#accordion2">
-                                            <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="card">
-                                        <div className="card-header" id="headingseven">
-                                            <h5 className="mb-0">
-                                                <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                                                    Where can I find instructions on how to use my watch?<i className="ti-plus"></i><i className="ti-minus"></i>
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseseven" className="collapse" aria-labelledby="headingseven" data-parent="#accordion2">
-                                            <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="card">
-                                        <div className="card-header" id="headingeight">
-                                            <h5 className="mb-0">
-                                                <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseeight" className="collapse" aria-labelledby="headingeight" data-parent="#accordion2">
-                                            <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="card">
-                                        <div className="card-header" id="headingnine">
-                                            <h5 className="mb-0">
-                                                <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapsenine" className="collapse" aria-labelledby="headingnine" data-parent="#accordion2">
-                                            <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
-                            <div className="tab-pane fade" id="returns" role="tabpanel" aria-labelledby="returns-tab">
-                                <h3 className="f_p f_size_22 f_500 t_color3 mb_20">How to purchase</h3>
+                            <div className="tab-pane fade" id="common" role="tabpanel" aria-labelledby="returns-tab">
+                                <h3 className="f_p f_size_22 f_500 t_color3 mb_20">Common Questions</h3>
                                 <div id="accordion3">
                                     <div className="card">
                                         <div className="card-header" id="heading10">

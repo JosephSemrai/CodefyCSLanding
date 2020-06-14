@@ -7,7 +7,7 @@ class SupportPartnerlogo extends Component {
         return(
             <section className="support_partner_logo_area">
                 <div className="container">
-                    <h4 className="f_size_18 f_400 f_p text-center l_height28 mb_50">Market leaders use app to nrich their brand &amp; business.</h4>
+                    <h4 className="f_size_18 f_400 f_p text-center l_height28 mb_50">Sponsors and Benefactors</h4>
                     <div className="row partner_info">
                         {
                             BannerData.ClientsLogo.map(item =>{

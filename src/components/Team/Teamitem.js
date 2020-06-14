@@ -11,7 +11,7 @@ class Teamitem extends Component {
                     <a href=".#">
                         <h3 className="f_p f_size_16 f_600 t_color3">{memberN}</h3>
                     </a>
-                    <h5>web designer</h5>
+        <h5>{memberd}</h5>
                 </div>
                 <div className="hover_content">
                     <div className="n_hover_content">
