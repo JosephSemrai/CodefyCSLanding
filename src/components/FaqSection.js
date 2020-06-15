@@ -96,14 +96,14 @@ const FaqSection =()=>{
                                         <div className="card-header" id="heading10">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
-                                                    How do I repair an item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: What happens if I miss a class?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapse10" className="collapse show" aria-labelledby="heading10" data-parent="#accordion3">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
+                                            A: If you miss a class, do not worry! We take recordings of each lesson so that you can look them over whenever you have the chance.
                                             </div>
                                         </div>
                                     </div>
@@ -111,13 +111,13 @@ const FaqSection =()=>{
                                         <div className="card-header" id="heading11">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                                                    Where can I find instructions on how to use my watch?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: How much do the classes cost?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapse11" className="collapse" aria-labelledby="heading11" data-parent="#accordion3">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
+                                            A: The classes are absolutely free! 
                                             </div>
                                         </div>
                                     </div>
@@ -125,42 +125,39 @@ const FaqSection =()=>{
                                         <div className="card-header" id="heading12">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: Do I need any prior experience?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapse12" className="collapse" aria-labelledby="heading12" data-parent="#accordion3">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: Nope! In our basic classes, we start at the very beginning, assuming no prior coding experience. If you think you already have a good grasp of a language, sign up for one of our advanced classes.                                            </div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-header" id="heading13">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: Can I choose to either go to a Wednesday or Friday class, or do I have to attend them all?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapse13" className="collapse" aria-labelledby="heading13" data-parent="#accordion3">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: For an optimal experience, it is highly recommended that you attend all Wednesday and Friday classes since the information covered is different from class to class. However, if you are unable to attend a meeting, there are recordings, as mentioned above, that can help you catch up!                                            </div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-header" id="heading14">
                                             <h5 className="mb-0">
                                                 <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                                                    Is there a warranty on my item?<i className="ti-plus"></i><i className="ti-minus"></i>
+                                                Q: Are the lessons in the classes repeated?<i className="ti-plus"></i><i className="ti-minus"></i>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapse14" className="collapse" aria-labelledby="heading14" data-parent="#accordion3">
                                             <div className="card-body">
-                                                Why I say old chap that is spiffing pukka, bamboozled wind up bugger buggered zonked hanky panky a blinding shot the little rotter, bubble and squeak vagabond cheeky bugger at public school pardon you bloke the BBC. Tickety-boo Elizabeth plastered matie.!
-                                            </div>
+                                            A: No, the lessons in each class are different which is why we highly encourage attending as many classes as you can.                                            </div>
                                         </div>
                                     </div>
                                 </div>
