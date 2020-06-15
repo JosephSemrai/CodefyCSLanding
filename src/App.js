@@ -24,7 +24,7 @@ import NotFound from "./Pages/404";
 
 class App extends Component {
   componentDidMount() {
-    this.props.hideLoader();
+    // this.props.hideLoader();
   }
   render() {
     return (
@@ -33,7 +33,7 @@ class App extends Component {
           <ScrollToTopRoute exact={true} path={"/"} component={homesupport} />
           
           <ScrollToTopRoute path="/About" component={About} />
-          <ScrollToTopRoute path="/Service" component={Service} />
+          <ScrollToTopRoute path="/Courses" component={Service} />
           <ScrollToTopRoute path="/Process" component={Process} />
           <ScrollToTopRoute path="/Team" component={Team} />
           <ScrollToTopRoute path="/Portfolio-2col" component={Portfolio2col} />

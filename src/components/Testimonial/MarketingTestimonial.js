@@ -18,7 +18,7 @@ class MarketingTestimonial extends Component {
         return(
             <section className={`agency_testimonial_area sec_pad ${bgColor}`}>
                 <div className="container">
-                    <h2 className="f_size_30 f_600 t_color3 l_height40 text-center mb_60">We've heard things like</h2>
+                    <h2 className="f_size_30 f_600 t_color3 l_height40 text-center mb_60">Testimonials</h2>
                     <div className="agency_testimonial_info">
                         <Slider className="testimonial_slider" {...settings}>
                             {

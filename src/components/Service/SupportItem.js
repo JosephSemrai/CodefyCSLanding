@@ -9,7 +9,7 @@ const SupportItem = () => {
                     <div className="support_item">
                         <img src={require ('../../img/new-home/ticket-support.png')} alt=""/>
                         <h4>Ready to learn?</h4>
-                        <a href="/#" className="software_banner_btn btn_submit f_size_15 f_500">Browse Our Courses</a>
+                        <a href="/Courses" className="software_banner_btn btn_submit f_size_15 f_500">Browse Our Courses</a>
                     </div>
                     <div className="support_item">
                         <img src={require ('../../img/new-home/email.png')} alt=""/>

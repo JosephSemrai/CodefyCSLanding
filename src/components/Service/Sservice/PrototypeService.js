@@ -7,9 +7,9 @@ class Sservice extends Component{
         return(
             <section className="prototype_service_area_two">
                 <div className="container custom_container">
-                    <Sectitle Title="Browse our courses" TitleP="We offer a wide variety of quality, interesting courses."
+                    <Sectitle Title="Our Course Offerings" TitleP="We offer a wide variety of quality, interesting courses."
                     tClass="t_color3" sClass="sec_title text-center mb_70"/>
-                    <Pserviceslider/>
+                    <Pserviceslider showAll/>
                 </div>
             </section>
         )

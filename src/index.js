@@ -20,18 +20,18 @@ import "popper.js";
 const loader = document.querySelector("#preloader");
 
 // Hide loader from the start
-loader.classList.add("loader--hide");
+// loader.classList.add("loader--hide");
 
 // if you want to show the loader when React loads data again
-const showLoader = () => {};
+// const showLoader = () => {};
 
-const hideLoader = () => loader.classList.add("loader--hide");
+// const hideLoader = () => loader.classList.add("loader--hide");
 
 setTimeout(
   () =>
     // the show/hide functions are passed as props
     ReactDOM.render(
-      <App hideLoader={hideLoader} showLoader={showLoader} />,
+      <App />,
       document.getElementById("root")
     ),
   1000

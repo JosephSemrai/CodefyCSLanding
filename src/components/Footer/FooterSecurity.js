@@ -19,6 +19,7 @@ class FooterSecurity extends Component {
                                             <div className="f_widget dark_widget company_widget" data-wow-delay="0.2s">
                                                 <a href="index.html" className="f-logo"><img src={require ("../../img/logo2.png")} alt=""/></a>
                                                 <p>© 2020 Codefy. All rights reserved.</p>
+                                                <p>Codefy is fiscally sponsored by Hack Club Bank, a project by the The Hack Foundation (d.b.a Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
                                                 <div className="f_social_icon">
                                                     {
                                                         FooterData.socialIcon.map(item =>{
@@ -28,7 +29,7 @@ class FooterSecurity extends Component {
                                                         })
                                                     }
                                                 </div>
-                                                <p>DroitThemes License: Joseph Semrai (24892607)</p>
+                                                <p>DroitThemes License: Fydega, Inc. Joseph Semrai (24892607)</p>
                                             </div>
                                         </div>
                                     </Reveal>
