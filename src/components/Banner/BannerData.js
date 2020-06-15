@@ -16,17 +16,24 @@ const BannerData = {
         {
             id: 1,
             image: 'author_img.png',
-            authorName: 'Lurch Schpellchek',
-            authorPost: 'UI/UX designer',
-            description: 'What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it`s all gone to pot buggered.',
+            authorName: 'Parent',
+            authorPost: 'Scratch Class',
+            description:  "My son is in the Scratch class and I just want to say how impressed I am with your program. The communications and the way the classes are run are so organized and clear. He has learned so much in just three classes and is always excited to show his work once the class is done. Thank you for all that you’re doing to encourage and inspire all of the kids who are in your classes!",
         },
         {
             id: 2,
             image: 'author_img.png',
-            authorName: 'Lurch Schpellchek',
-            authorPost: 'UI/UX designer',
-            description: 'What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it`s all gone to pot buggered.',
-        }
+            authorName: 'Student',
+            authorPost: 'Breakout',
+            description: "I enjoyed it a lot. My favorite part was understanding why I got errors in my program when running it and fixing them afterwards...The class certainly did meet my expectations!",
+        },
+        {
+          id: 3,
+          image: 'author_img.png',
+          authorName: 'Student',
+          authorPost: 'General Class',
+          description: "Overall the class was fun and met my expectations. I look forward to taking the class again.",
+      }
     ]
 }
 export default BannerData;

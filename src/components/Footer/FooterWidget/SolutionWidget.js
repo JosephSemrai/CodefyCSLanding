@@ -13,7 +13,7 @@ class SolutionWidget extends Component {
                         {
                             FooterData.Solution.map(item =>{
                                 return(
-                                    <li key={item.id}><a href="/">{item.text}</a></li>
+                                    <li key={item.id}><a href={item.url}>{item.text}</a></li>
                                 )
                             })
                         }

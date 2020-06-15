@@ -40,7 +40,7 @@ class Footer extends Component {
                                                     {
                                                         widget.menuItems.map(item =>{
                                                             return(
-                                                                <li key={item.id}><Link to="/">{item.text}</Link></li>
+                                                                <li key={item.id}><Link to={item.url}>{item.text}</Link></li>
                                                             )
                                                         })
                                                     }

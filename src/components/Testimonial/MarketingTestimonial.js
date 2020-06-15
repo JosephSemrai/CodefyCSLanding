@@ -25,7 +25,7 @@ class MarketingTestimonial extends Component {
                                 BannerData.AgencyTestimonial.map(item=>{
                                    return(
                                         <div className="testimonial_item text-center left" key={item.id}>
-                                            <div className="author_img"><img src={require('../../img/home4/' + item.image)} alt=""/></div>
+                                            {/* <div className="author_img"><img src={require('../../img/home4/' + item.image)} alt=""/></div> */}
                                             <div className="author_description">
                                                 <h4 className="f_500 t_color3 f_size_18">{item.authorName}</h4>
                                                 <h6>{item.authorPost}</h6>

@@ -24,7 +24,7 @@ class FooterSecurity extends Component {
                                                     {
                                                         FooterData.socialIcon.map(item =>{
                                                             return(
-                                                                <a href="/" key={item.id}><i className={item.icon}></i></a>
+                                                                <a href={item.url} key={item.id}><i className={item.icon}></i></a>
                                                             )
                                                         })
                                                     }
@@ -47,7 +47,10 @@ class FooterSecurity extends Component {
                                                 {
                                                     widget.menuItems.map(item =>{
                                                         return(
-                                                            <li key={item.id}><Link to="/">{item.text}</Link></li>
+                                                          <a href={item.url}>
+                                                            <li key={item.id}><Link to={item.url}>{item.text}</Link></li>
+
+                                                          </a>
                                                         )
                                                     })
                                                 }
@@ -69,7 +72,7 @@ class FooterSecurity extends Component {
                                                     {
                                                         widget.menuItems.map(item =>{
                                                             return(
-                                                                <li key={item.id}><Link to="/">{item.text}</Link></li>
+                                                                <li key={item.id}><Link to={item.url}>{item.text}</Link></li>
                                                             )
                                                         })
                                                     }

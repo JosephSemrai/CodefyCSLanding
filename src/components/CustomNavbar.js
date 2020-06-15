@@ -36,14 +36,21 @@ class CustomNavbar extends Component {
                                     </NavLink>
                                     
                                 </li>
+
+                                <li className="nav-item dropdown submenu mega_menu mega_menu_two">
+                                    <NavLink to="/Courses" exact className="nav-link" role="button"  aria-haspopup="true" aria-expanded="false">
+                                        Courses
+                                    </NavLink>
+                                    
+                                </li>
                                 
-                                <li className="dropdown submenu nav-item">
+                                {/* <li className="dropdown submenu nav-item">
                                     <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</Link>
                                     <ul role="menu" className=" dropdown-menu">
                                         <li className="nav-item"><NavLink exact title="Service" className="nav-link" to='/Courses'>Courses</NavLink></li>
                                         <li className="nav-item"><NavLink exact title="Service Details" className="nav-link" to='/ServiceDetails'>Service Details</NavLink></li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 {/* <li className="dropdown submenu nav-item">
                                     <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</Link>
                                     <ul role="menu" className=" dropdown-menu">
